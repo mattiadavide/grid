@@ -1,12 +1,14 @@
 body {
     margin:0px;
     padding: 0px;
-    background: #000;
+    background: white;
 }
 
 #vid_container {
     position: fixed;
     top: 0; left: 0;
+    
+    
 }      
 
 #video{
@@ -15,6 +17,10 @@ body {
     object-fit: cover; 
     z-index: 0; 
 } 
+#grid {
+    position: fixed;
+    z-index: 11;
+}      
 
 #gui_controls {
     position: fixed;

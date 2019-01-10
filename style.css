@@ -18,8 +18,8 @@ body {
     z-index: 0; 
 } 
 #grid {
-    position: fixed;
-    z-index: 11;
+    
+   
 }      
 
 #gui_controls {
